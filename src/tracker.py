@@ -1,6 +1,6 @@
-from model import Book
-from repository import Database
-from exception import BookException
+from src.model import Book
+from src.repository import Database
+from src.exception import BookException
 
 class BookManager:
     STATUS = ["in progress", "finished", "not started"]

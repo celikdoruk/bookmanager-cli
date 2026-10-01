@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-from tracker import BookManager
+from src.tracker import BookManager
 
 def create_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
